@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_order_components_products",
+  "info": {
+    "displayName": "product",
+    "icon": "television",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "type": "string",
+      "required": true
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "default": 1
+    }
+  }
+}
